@@ -1,5 +1,5 @@
 model/images
-*.pickle
+model/*.pickle
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
