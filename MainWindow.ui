@@ -17,9 +17,6 @@
    <layout class="QVBoxLayout" name="verticalLayout_2">
     <item>
      <layout class="QGridLayout" name="gridLayout">
-      <item row="1" column="1">
-       <widget class="QGraphicsView" name="viewImage"/>
-      </item>
       <item row="0" column="1">
        <widget class="QLabel" name="labelPath">
         <property name="text">
@@ -36,23 +33,31 @@
           </property>
          </widget>
         </item>
-        <item>
-         <widget class="QLabel" name="labelPrediccion">
-          <property name="text">
-           <string>TextLabel</string>
-          </property>
-         </widget>
-        </item>
        </layout>
       </item>
+      <item row="1" column="1">
+       <widget class="QGraphicsView" name="view"/>
+      </item>
      </layout>
+    </item>
+    <item>
+     <widget class="QLabel" name="labelPrediccion">
+      <property name="font">
+       <font>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
     </item>
     <item>
      <layout class="QHBoxLayout" name="horizontalLayout">
       <item>
        <widget class="QPushButton" name="buttonCargar">
         <property name="text">
-         <string>Cargar Audio</string>
+         <string>Cargar Imagen</string>
         </property>
        </widget>
       </item>

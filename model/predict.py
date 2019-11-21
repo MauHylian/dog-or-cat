@@ -9,7 +9,7 @@ import tensorflow as tf
 import os
 import sys
 
-import config
+from . import config
 
 CATEGORIES = config.CATEGORIES
 
